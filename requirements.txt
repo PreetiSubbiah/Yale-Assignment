@@ -1,0 +1,7 @@
+requests==2.23.0
+Flask==3.0.3
+celery==5.4.0
+redis==5.0.4
+gunicorn==20.0.4
+flask-cors
+

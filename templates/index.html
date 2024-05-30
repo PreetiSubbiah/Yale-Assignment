@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PubMed Data Search/Retrieval</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="/static/style.css">
+        <script src = "/static/main.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>PubMed Search</h1>
+        </header>
+        <main>
+            <form>
+                <div class="input-section">
+                    <label for="search-term"> Term to Search For</label>
+                    <input type="text" id="search-term"  value="" placeholder="Enter Search Term">
+                </div>
+                <button class="btn btn-main" id="search" onclick="startSearch()">Search</button>
+            </form>
+            
+          <div class="info">
+            <p id="records"></p>
+            <p id="query"></p>
+            <p id="taskId"></p>
+            <p id="status"></p>
+            <p id="runtime"></p>
+            <p id="createdTime"></p>
+            <pre id="results"></pre>
+          </div>  
+
+          <button class="btn btn-bottom" id="view-result" onclick="checkStatus()">See Result</button>
+          
+        </main>  
+    </body>
+</html>
+  
