@@ -1,7 +1,7 @@
 # Yale-Assignment
 ## Description
 A simple web application to search for and retrieve data from the PubMed database maintained by the National Library of Medicine. The app retrieves relevant information such as PMIDs, number of records, etc based on the search term provided by the user. \
-The back-end of the application was developed using the following technologies: \
+The back-end was developed using the following technologies: \
 Flask: \
 Used as the primary web framework for creating the API endpoints and handling HTTP requests and responses. \
 Celery: \
