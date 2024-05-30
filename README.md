@@ -16,13 +16,13 @@ The front-end technologies include: HTML, CSS, JavaScript (with the Fetch API).
 Install Python
 Install the necessary Python packages: Flask, Celery, requests, and redis. \
 $ git clone https://github.com/PreetiSubbiah/Yale-Assignment.git \
-$ cd Yale-Assigment $ pip install -r requirements.txt \
+$ cd Yale-Assigment $ pip install -r requirements.txt 
 #### Set Environment Variables: 
-Set the environment variables REDIS_URL and NCBI_API_KEY. \
+Set the environment variables REDIS_URL and NCBI_API_KEY. 
 #### Run Redis Server:
-Start a Redis server, which is required for Celery to work. \
+Start a Redis server, which is required for Celery to work. 
 #### Run Flask App: 
-Start the Flask app by running: python app.py. \
+Start the Flask app by running: python app.py. 
 Ctrl + C will stop the process and close the connection to the app.
 #### Start Celery Worker: 
 Start the Celery worker by running: celery -A app.celery worker --loglevel=info.
