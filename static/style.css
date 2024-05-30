@@ -74,17 +74,6 @@ label {
     border-color: #61428f;
 }
 
-.btn-bottom {
-    background-color: rgb(220, 154, 32);
-    border-color: rgb(114, 83, 25);
-    color: #fff;
-}
-
-.btn-bottom:hover, .btn-bottom:active, nav a:hover {
-    color: #fff;
-    background-color: rgb(207, 145, 30);
-    border-color: rgb(114, 83, 25);
-}
 
 .info {
     border: solid 1px #dbdbdb;
